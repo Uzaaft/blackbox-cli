@@ -2,14 +2,14 @@
 import PackageDescription
 
 let package = Package(
-    name: "MyCLI",
+    name: "blackbox-cli",
     platforms: [.macOS(.v12)],
     products: [
-        .executable(name: "MyCLI", targets: ["MyCLI"])
+        .executable(name: "blackbox-cli", targets: ["blackbox-cli"])
     ],
     targets: [
         .executableTarget(
-            name: "MyCLI",
+            name: "blackbox-cli",
             dependencies: []
         )
     ]
