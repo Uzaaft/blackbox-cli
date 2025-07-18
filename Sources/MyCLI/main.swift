@@ -31,4 +31,4 @@ guard let note = noteContent else {
     exit(1)
 }
 
-storeNoteToDatabase(note: note, source: source)
+print(note)
