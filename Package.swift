@@ -8,7 +8,8 @@ let package = Package(
         .executable(name: "blackbox", targets: ["BlackBoxCLI"])
     ],
     dependencies: [
-        .package(url: "https://github.com/apple/swift-argument-parser", from: "1.6.1")
+        .package(url: "https://github.com/apple/swift-argument-parser", from: "1.6.1"),
+        .package(url: "https://github.com/jkrukowski/SQLiteVec", from: "0.0.9"),
     ],
     targets: [
         .executableTarget(

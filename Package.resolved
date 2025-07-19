@@ -1,6 +1,15 @@
 {
-  "originHash" : "5410c3447a475cdd97d7f5cc012442cc5b3110716dfbd826d29e4b86b20a234f",
+  "originHash" : "c2c3e97b3317da756ff2e892e6db3581752da5fa2b9346105830bd399f2dead8",
   "pins" : [
+    {
+      "identity" : "sqlitevec",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/jkrukowski/SQLiteVec",
+      "state" : {
+        "revision" : "eaa734a8c7615e2ef791c218280292f27d33db39",
+        "version" : "0.0.13"
+      }
+    },
     {
       "identity" : "swift-argument-parser",
       "kind" : "remoteSourceControl",
